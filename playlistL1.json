@@ -1,0 +1,223 @@
+{
+	"total_rows": 27,
+
+	"headers" : [
+		"ID", "path", "text", "correct", "explanation"
+	],
+
+	"rows" : [{
+     "ID": 1,
+        "path": "Testsetrecordings/testsetL1/example 1.mp3",
+        "text": "(Example 1) My father he works in a bank.",
+        "correct": 0,
+        "explanation": "This sentence has two subjects: my father and he. It should be: My father works in a bank."
+    },
+
+      {
+     "ID": 2,
+        "path": "Testsetrecordings/testsetL1/example 2.mp3",
+        "text": "(Example 2) Do you know what the topic is?",
+        "correct": 1,
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 3,
+        "path": "Testsetrecordings/testsetL1/sentence 01.mp3",
+        "correct": 0,
+        "text": "In the past, the womans wear the traditional clothes.",
+        "explanation": "The subject should be 'women' (irregular plural; general, not specific), the verb should be past simple, and the object should be 'traditional clothes'. It should be: In the past, women wore traditional clothes."
+    },
+
+      {
+     "ID": 4,
+        "path": "Testsetrecordings/testsetL1/sentence 02.mp3",
+        "text": "Yeah, actually, I'm agree with you.",
+        "correct": 0,
+        "explanation": "This sentence has two verbs. It should be: Yeah, actually I agree with you."
+    },
+
+      {
+     "ID": 5,
+        "path": "Testsetrecordings/testsetL1/sentence 03.mp3",
+        "text": "Do you think it helps to reduce the traffic?",
+        "correct": 1,
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 6,
+        "path": "Testsetrecordings/testsetL1/sentence 04.mp3",
+        "text": "Because it's reduce the traffic problem.",
+        "correct": 0,
+        "explanation": "This sentence has two verbs. It should be: Because it reduces the traffic problem."
+    },
+
+      {
+     "ID": 7,
+        "path": "Testsetrecordings/testsetL1/sentence 05.mp3",
+        "correct": 1,
+        "text": "Each person in the family has one car.",
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 8,
+        "path": "Testsetrecordings/testsetL1/sentence 06.mp3",
+        "correct": 1,
+        "text": "The government should encourage locals to use public transportation.",
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 9,
+        "path": "Testsetrecordings/testsetL1/sentence 07.mp3",
+        "correct": 1,
+        "text": "I think it will have a big effect on my life.",
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 10,
+        "path": "Testsetrecordings/testsetL1/sentence 08.mp3",
+        "correct": 0,
+        "text": "They do stuff that it's not allowed here.",
+        "explanation": "The adjective clause (relative clause) has two subjects - 'that' and 'it'. It should be: They do stuff that is not allowed here."
+    },
+
+      {
+     "ID": 11,
+        "path": "Testsetrecordings/testsetL1/sentence 09.mp3",
+        "correct": 1,
+        "text": "I think love is much more important than money.",
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 12,
+        "path": "Testsetrecordings/testsetL1/sentence 10.mp3",
+        "correct": 0,
+        "text": "The fees it's very expensive.",
+        "explanation": "This sentence has two subjects: 'the fees' and 'it', and the verb should be plural. It should be: The fees are very expensive."
+    },
+
+      {
+     "ID": 13,
+        "path": "Testsetrecordings/testsetL1/sentence 11.mp3",
+        "correct": 1,
+        "text": "There are too many buildings.",
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 14,
+        "path": "Testsetrecordings/testsetL1/sentence 12.mp3",
+        "correct": 0,
+        "text": "They also affects in our children.",
+        "explanation": "The verb should be plural, and it takes a direct object. It should be: They also affect our children."
+    },
+
+      {
+     "ID": 15,
+        "path": "Testsetrecordings/testsetL1/sentence 13.mp3",
+        "correct": 0,
+        "text": "It's make them happy.",
+        "explanation": "This sentence has two verbs. It should be: It makes them happy."
+    },
+
+      {
+     "ID": 16,
+        "path": "Testsetrecordings/testsetL1/sentence 14.mp3",
+        "correct": 1,
+        "text": "We had some agreements and some disagreements.",
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 17,
+        "path": "Testsetrecordings/testsetL1/sentence 15.mp3",
+        "correct": 0,
+        "text": "That's make you happy?",
+        "explanation": "This sentence has two verbs. It should be: That makes you happy."
+    },
+
+      {
+     "ID": 18,
+        "path": "Testsetrecordings/testsetL1/sentence 16.mp3",
+        "correct": 1,
+        "text": "There are some shops which sell this.",
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 19,
+        "path": "Testsetrecordings/testsetL1/sentence 17.mp3",
+        "correct": 0,
+        "text": "You don't mind to marry a smoker?",
+        "explanation": "'Mind' is followed by a gerund (-ing form). It should be: You don't mind (Don't you mind) marrying a smoker?"
+    },
+
+      {
+     "ID": 20,
+        "path": "Testsetrecordings/testsetL1/sentence 18.mp3",
+        "correct": 0,
+        "text": "That's will affect their grades.",
+        "explanation": "This sentence has two verbs. It should be: That will affect their grades."
+    },
+
+      {
+     "ID": 21,
+        "path": "Testsetrecordings/testsetL1/sentence 19.mp3",
+        "correct": 1,
+        "text": "I will buy something I know they like.",
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 22,
+        "path": "Testsetrecordings/testsetL1/sentence 20.mp3",
+        "correct": 1,
+        "text": "It shows that I am relaxed.",
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 23,
+        "path": "Testsetrecordings/testsetL1/sentence 21.mp3",
+        "correct": 0,
+        "text": "What it's mean?",
+        "explanation": "This sentence has two verbs, and needs an auxiliary 'do'. It should be: What does it mean?"
+    },
+
+      {
+     "ID": 24,
+        "path": "Testsetrecordings/testsetL1/sentence 22.mp3",
+        "correct": 0,
+        "text": "Anything that you use it in daily life.",
+        "explanation": "This adjective clause has two objects - 'that' and 'it'. It should be: Anything that you use in daily life."
+    },
+
+      {
+     "ID": 25,
+        "path": "Testsetrecordings/testsetL1/sentence 23.mp3",
+        "correct": 0,
+        "text": "Why you don't believe this?",
+        "explanation": "This subject should be between the auxiliary verb and main verb. It should be: Why don't you believe this?"
+    },
+
+      {
+     "ID": 26,
+        "path": "Testsetrecordings/testsetL1/sentence 24.mp3",
+        "correct": 1,
+        "text": "Do you think he will tell you the truth?",
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 27,
+        "path": "Testsetrecordings/testsetL1/sentence 25.mp3",
+        "correct": 0,
+        "text": "Why the people are doing this?",
+        "explanation": "This subject should be between the auxiliary verb and main verb. It should be: Why are the people doing this?"
+    }]
+    }
