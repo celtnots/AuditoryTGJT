@@ -1,0 +1,216 @@
+{
+	"total_rows": 26,
+
+	"headers" : [
+		"ID", "path", "text", "correct", "explanation"
+	],
+
+
+	"rows" : [{
+     "ID": 1,
+        "path": "Testsetrecordings/testsetL1/example 1.mp3",
+        "text": "(Example 1) My father he works in a bank.",
+        "correct": 0,
+        "explanation": "This sentence has two subjects: my father and he. It should be: My father works in a bank."
+    },
+
+      {
+     "ID": 2,
+        "path": "Testsetrecordings/testsetL1/example 2.mp3",
+        "text": "(Example 2) Do you know what the topic is?",
+        "correct": 1,
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 3,
+        "path": "Testsetrecordings/testsetL2/akadasah2-1.mp3",
+        "correct": 0,
+        "text": "When the Saudi soccer team wins, everyone goes into streets and dances.",
+        "explanation": "It should be: When the Saudi soccer team wins, everyone goes (out) into THE street(s) and dances."
+    },
+
+      {
+     "ID": 4,
+        "path": "Testsetrecordings/testsetL2/akadasah2-2.mp3",
+        "text": "I don't know how you make it.",
+        "correct": 1,
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 5,
+        "path": "Testsetrecordings/testsetL2/akadasah2-3.mp3",
+        "text": "The traditional way is to eat it with hand.",
+        "correct": 0,
+        "explanation": "It should be: The traditional way is to eat it BY hand/with your hand(s)."
+    },
+
+      {
+     "ID": 6,
+        "path": "Testsetrecordings/testsetL2/apos-1.mp3",
+        "text": "You can find out what the weather is going to be like tomorrow.",
+        "correct": 1,
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 7,
+        "path": "Testsetrecordings/testsetL2/apos-2.mp3",
+        "correct": 1,
+        "text": "We basically said that culture has the most effect.",
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 8,
+        "path": "Testsetrecordings/testsetL2/apos-3.mp3",
+        "correct": 0,
+        "text": "The tooth are used for identification when you are dead.",
+        "explanation": "It should be: The TEETH are used are used for identification when you are dead."
+    },
+
+      {
+     "ID": 9,
+        "path": "Testsetrecordings/testsetL2/hjung-03.mp3",
+        "correct": 0,
+        "text": "I searched on the Internet about the Korean divorce.",
+        "explanation": "It should be: I searched (on) the Internet about divorce in Korea."
+    },
+
+      {
+     "ID": 10,
+        "path": "Testsetrecordings/testsetL2/hjung-12.mp3",
+        "correct": 0,
+        "text": "If I had one day left, I'm going to have breakfast with my family.",
+        "explanation": "It should be: If I had one day left, I WOULD have breakfast with my family."
+    },
+
+      {
+     "ID": 11,
+        "path": "Testsetrecordings/testsetL2/hjung-15.mp3",
+        "correct": 0,
+        "text": "Suppose there are no friend. It'd be very bored.",
+        "explanation": "It should be: Suppose there were no friends/you had no friends. It'd be very BORING."
+    },
+
+      {
+     "ID": 12,
+        "path": "Testsetrecordings/testsetL2/ihsieh-04.mp3",
+        "correct": 1,
+        "text": "So your father didn't know your brother smoked?",
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 13,
+        "path": "Testsetrecordings/testsetL2/ihsieh-18.mp3",
+        "correct": 1,
+        "text": "Even if you're busy, you have to tell them.",
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 14,
+        "path": "Testsetrecordings/testsetL2/ihsieh-20.mp3",
+        "correct": 0,
+        "text": "Your friend hang out with you.",
+        "explanation": "It should be: Your friend HANGS/Your FRIENDS hang out with you."
+    },
+
+      {
+     "ID": 15,
+        "path": "Testsetrecordings/testsetL2/Marwa-03.mp3",
+        "correct": 1,
+        "text": "What is the most common issue we have?",
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 16,
+        "path": "Testsetrecordings/testsetL2/Marwa-10.mp3",
+        "correct": 0,
+        "text": "I think love is much important as money.",
+        "explanation": "It should be: I think love is much MORE important THAN money/JUST AS important as money."
+    },
+
+      {
+     "ID": 17,
+        "path": "Testsetrecordings/testsetL2/Marwa-17.mp3",
+        "correct": 0,
+        "text": "Tell us about the interesting points you have discussed about.",
+        "explanation": "It should be: Tell us about the interesting points you (have) discussed."
+    },
+
+      {
+     "ID": 18,
+        "path": "Testsetrecordings/testsetL2/moramotta-1.mp3",
+        "correct": 0,
+        "text": "I think it would to be cause problems.",
+        "explanation": "It should be: I think it would cause problems."
+    },
+
+      {
+     "ID": 19,
+        "path": "Testsetrecordings/testsetL2/moramotta-2.mp3",
+        "correct": 1,
+        "text": "I think money is important for life but it's not the most important thing.",
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 20,
+        "path": "Testsetrecordings/testsetL2/moramotta-3.mp3",
+        "correct": 0,
+        "text": "The idea is pay attention in the conversation.",
+        "explanation": "It should be: The idea is (to) pay attention TO the conversation.."
+    },
+
+      {
+     "ID": 21,
+        "path": "Testsetrecordings/testsetL2/skim-04.mp3",
+        "correct": 0,
+        "text": "It's different smoking and drugs.",
+        "explanation": "It should be: Smoking and drugs ARE different"
+    },
+
+      {
+     "ID": 22,
+        "path": "Testsetrecordings/testsetL2/skim-11.mp3",
+        "correct": 0,
+        "text": "What do you think the reason for the divorce?",
+        "explanation": "It should be: What do you think IS the reason for the divorce?/the reason for the divorce IS?"
+    },
+
+      {
+     "ID": 23,
+        "path": "Testsetrecordings/testsetL2/skim-21.mp3",
+        "correct": 1,
+        "text": "Sometimes I feel more comfortable with friends who are men.",
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 24,
+        "path": "Testsetrecordings/testsetL2/tyamamoto-1.mp3",
+        "correct": 0,
+        "text": "My right knee was broken by a motorcycle accident.",
+        "explanation": "It should be: My right knee was broken IN a motorcycle accident."
+    },
+
+      {
+     "ID": 25,
+        "path": "Testsetrecordings/testsetL2/tyamamoto-2.mp3",
+        "correct": 1,
+        "text": "Most Japanese people are not Christian.",
+        "explanation": "(Correct)"
+    },
+
+      {
+     "ID": 26,
+        "path": "Testsetrecordings/testsetL2/tyamamoto-3.mp3",
+        "correct": 0,
+        "text": "We have a special celebration for someone who people become adult(s).",
+        "explanation": "It should be: We have a special celebration for people who become/are becoming adults."
+    }]
+    }
