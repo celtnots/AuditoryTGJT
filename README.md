@@ -1,14 +1,38 @@
 # ReactionTimeTester
 
 
-Zekee:
+This assumes that you have:
+- an html host that can run php scripting
+- a MySql host  
+- a database called "globalsmalltalk" with a table called "errorrecognition" with fields: `UserName`,`sentenceID`,`answer`,`elapsedTime`,`status`,`Confidence`,`score` 
 
-The paths for the test sounds (line 426 of L1.html, currently "audiopaths = "TestSounds/") will need to be updated. The sentences are in the JSON file, with path: "Testsetrecordings/testsetL1/example 1.mp3" etc. The path to that JSON file will need to be updated (line 444 of L1.html).
+CreateTable syntax:
+CREATE TABLE `errorrecognition` (
+  `errorrecognitionID` int(11) NOT NULL AUTO_INCREMENT,
+  `UserName` varchar(50) NOT NULL,
+  `sentenceID` text NOT NULL,
+  `answer` varchar(5) NOT NULL,
+  `elapsedTime` int(11) NOT NULL,
+  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `status` int(11) DEFAULT NULL,
+  `Confidence` double DEFAULT NULL,
+  `score` int(11) DEFAULT NULL,
+  PRIMARY KEY (`errorrecognitionID`),
+  UNIQUE KEY `errorrecognitionID` (`errorrecognitionID`)
+) ENGINE=MyISAM AUTO_INCREMENT=21103 DEFAULT CHARSET=latin1;
 
-The DB connection worked on localhost and on the floatingcrowbar server. "response.php" just needs to be in the same folder, or have its path (line 403 of L1.html) updated.
+1) Edit the file "response.php" at Line 31: $link = mysqli_connect("server", "username", "password") with YOUR server, username, password.
 
-I didn't add a path for the images (testsound0001.png, incorrect0001.png, etc. so if these go into a "static" folder, they'll need new paths.
+2) Edit the file "playlistL1.json" items:
 
-Other than that, feel free to change anything that looks inefficient, etc.
+ "ID": 1,
+        "path": "[foldername]/example 1.mp3",                                                                         <-- here you put the server path to YOUR recordings; 
+        "text": "(Example 1) My father he works in a bank.",                                                          <-- here you put the transcription of the item;
+        "correct": 0,                                                                                                 <-- here you put whether the item is grammatical or not;
+        "explanation": "This sentence has two subjects: my father and he. It should be: My father works in a bank."   <-- here you put an explantion
+    },
 
-THANK YOU!!!!!!!!
+3) Edit lines 329-356 of "L1.html" to reflect the number of items in "playlistL1.json". (My test had 27 items, so you might need to add or remove lines.)
+4) Edit "welcome.html" to reflect what you want the introduction page to say; remove lines 1-5; add html headers, etc and put the remaining text inside <body> tags.
+5) Upload all items to your server (you don't need "L2.html" or "playlistL1.json").
+  
